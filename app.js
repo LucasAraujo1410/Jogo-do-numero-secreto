@@ -1,6 +1,6 @@
 //JOGO DO NÚMERO SECRETO
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10
+let numeroLimite = 20
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag,texto){
 }
 function exibeMensagemInicial(){
     exibirTextoNaTela('h1','SECRET NUMBER GAME');
-    exibirTextoNaTela('p','Digite um número de 1 a 10');//CHAMNDO A FUNÇÃO
+    exibirTextoNaTela('p','Digite um número de 1 a 20');//CHAMNDO A FUNÇÃO
 }
 exibeMensagemInicial();
 
