@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag,texto){
 }
 function exibeMensagemInicial(){
     exibirTextoNaTela('h1','SECRET NUMBER GAME');
-    
+    exibirTextoNaTela('p','Digite um número de 1 a 10');//CHAMNDO A FUNÇÃO
 }
 exibeMensagemInicial();
 
