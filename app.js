@@ -12,7 +12,7 @@ function exibirTextoNaTela(tag,texto){
     campo.innerHTML = texto
 }
 function exibeMensagemInicial(){
-    exibirTextoNaTela('h1','SECRET NUMBER GAME');
+    exibirTextoNaTela('h1','SECRET Wiara GAME');
     exibirTextoNaTela('p','Digite um número de 1 a 10');//CHAMNDO A FUNÇÃO
 }
 exibeMensagemInicial();
